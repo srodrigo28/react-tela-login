@@ -107,6 +107,7 @@ img{
 
 .input:focus{
     outline: 0;
+    background-color: none;
 }
 
 .input:focus + .focus-input::after {

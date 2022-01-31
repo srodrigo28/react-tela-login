@@ -23,7 +23,7 @@ export const Login = () =>{
                                 type="email"
                                 value={email} 
                                 onChange={e=> setEmail(e.target.value)}
-                                autocomplete="off"
+                                autoComplete="off"
                             />
                             <span className="focus-input" data-placeholder="Email"></span>
                         </div>
@@ -34,7 +34,7 @@ export const Login = () =>{
                                 type="password"
                                 value={senha}
                                 onChange={e=> setSenha(e.target.value)}
-                                autocomplete="off"
+                                autoComplete="off"
                             />
                             <span className="focus-input" data-placeholder="Password"></span>
                         </div>
