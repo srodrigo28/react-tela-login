@@ -10,7 +10,7 @@ export const Login = () =>{
         <div className="container">
             <div className="container-login">
                 <div className="wrap-login">
-                    <form className="login-form">
+                    <form className="login-form" autocomplete="off">
                         <span className="login-form-title">Bem Vindo!</span>
                         <br/><br/>
                         <span className="login-form-title">
